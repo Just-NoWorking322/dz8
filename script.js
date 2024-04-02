@@ -34,4 +34,6 @@ function degree() {
 }
 
 function antidegree() {
+    let num1 = parseFloat(document.getElementById('num1').value);
+    document.getElementById('result').innerText = "Result: " + Math.sqrt(num1);
 }
